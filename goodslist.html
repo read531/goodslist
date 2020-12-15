@@ -138,12 +138,12 @@
         </div>
       </div>
     </div>
-    <script src="https://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
 
     <script type="text/javascript">
       $(function () {
-        $('.content').css('height', $('.right').height());
+        $('.content').css('height', $('.right').height() + 50);
         $('.left ul li').eq(0).addClass('active');
         $(window).scroll(function () {
           if ($(window).scrollTop() >= 150) {
@@ -367,7 +367,7 @@
 				price: 60
               }, {
                 title: '避孕套（冈本）',
-				image: 'images/39.jpg',
+				image: 'images/39.png',
 				price: 80
               }, {
                 title: '洗面奶',
